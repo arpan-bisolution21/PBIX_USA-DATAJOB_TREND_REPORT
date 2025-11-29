@@ -28,17 +28,17 @@ These pages visualize trends such as top hiring states, highest salaries, job co
 
 The primary objective of this report is to analyze the U.S. Data Job Market to answer:
 
-1.Which States, Companies, and Industries hire the most?
+1. Which States, Companies, and Industries hire the most?
 
-2.What are the Top-Paying Locations and Job Roles?
+2. What are the Top-Paying Locations and Job Roles?
 
-3.How do Seniority Levels impact salary and job availability?
+3. How do Seniority Levels impact salary and job availability?
 
-4.What Skills are most in demand across different roles?
+4. What Skills are most in demand across different roles?
 
-5.How do Public, Private, Nonprofit, and Educational Institutions differ in their hiring patterns?
+5. How do Public, Private, Nonprofit, and Educational Institutions differ in their hiring patterns?
 
-6.What strategic recommendations can be formed for Job Seekers and Decision-Makers?
+6. What strategic recommendations can be formed for Job Seekers and Decision-Makers?
 
 
 🛠️ Tools & Technologies Used :
@@ -64,7 +64,9 @@ Columns / Features: 31
 
 📌 Key Features of the Dashboard :
 
+
 ✔ Market Overview 
+
 
 1. Top hiring states: California, New York, Massachusetts, Illinois  
 
@@ -73,7 +75,8 @@ Columns / Features: 31
 3. Job distribution across ownership types (e.g., Private = 410, Public = 193)
 
 
-✔ Salary & Professional Insights
+✔ Salary & Professional Insights  
+
 
 1.Highest salary locations: Chicago IL, San CA, Washington DC
 
@@ -91,9 +94,11 @@ Columns / Features: 31
 2. Skills Distribution across job roles (full matrix shown in report)
 
 3. Education vs. Salary insights
+   
 
 
-✔ Complete Insights 
+✔ Complete Insights  
+
 
 Provides actionable recommendations, such as:
 
@@ -111,6 +116,7 @@ Provides actionable recommendations, such as:
 1. Single table schema, optimized with Power Query transformations
 
 2. 13 DAX Measures created for cleaner KPI computation and reusable metrics
+
 
 
 
@@ -146,6 +152,7 @@ Measure Name	                               DAX Code
     
 
 
+
 🧩 Key Insights :
 
 ✔ California & New York dominate hiring
@@ -161,6 +168,7 @@ Measure Name	                               DAX Code
 ✔ Postgraduates earn ~22% more than Graduates
 
 ✔ Senior Roles bag the highest salaries but have fewer openings
+
 
 
 
