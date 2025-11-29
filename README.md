@@ -2,11 +2,13 @@
 
 Comprehensive Analysis of U.S. Data Job Market (742 Records | 31 Fields)
 
+
 📝 Project Overview
 
 This Power BI project analyzes data-related job trends across the United States, using a clean single-table dataset of 742 job postings with 31 attributes. The goal is to understand hiring demand, salary benchmarks, industry trends, ownership patterns, and skill requirements within the modern data profession landscape.
 
-The dashboard is structured into five interactive report pages, each designed to highlight specific market insights:
+
+The dashboard is structured into five interactive report pages, each designed to highlight specific market insights :
 
 
 1.Project Brief
@@ -19,11 +21,10 @@ The dashboard is structured into five interactive report pages, each designed to
 
 5.Complete Insights
 
-
 These pages visualize trends such as top hiring states, highest salaries, job counts by seniority, skill expectations by role, job ownership distribution, and more, as reflected in charts and tables found throughout pages 2–5 of the PDF. (e.g., Top 5 Hiring States, Salary Distributions, Skill Matrix) 
 
 
-🎯 Objectives
+🎯 Objectives :
 
 The primary objective of this report is to analyze the U.S. Data Job Market to answer:
 
@@ -40,22 +41,18 @@ The primary objective of this report is to analyze the U.S. Data Job Market to a
 6.What strategic recommendations can be formed for Job Seekers and Decision-Makers?
 
 
-🛠️ Tools & Technologies Used
+🛠️ Tools & Technologies Used :
+
+A. MySQL Workbench:	Data extraction & ad-hoc SQL analysis
+
+B. Microsoft Excel:	Exploratory Data Analysis (EDA) using Pivot Tables
+
+C. Microsoft Power BI:	Data modeling, DAX calculations, and dashboard creation
+
+D. Power Query:	Data cleaning & transformation
 
 
-Tool	Purpose
-
-A.MySQL Workbench:	Data extraction & ad-hoc SQL analysis
-
-B.Microsoft Excel:	Exploratory Data Analysis (EDA) using Pivot Tables
-
-C.Microsoft Power BI:	Data modeling, DAX calculations, and dashboard creation
-
-D.Power Query:	Data cleaning & transformation
-
-
-📁 Dataset Summary
-
+📁 Dataset Summary :
 
 Type: Single Table
 
@@ -65,15 +62,15 @@ Columns / Features: 31
 
 
 
-📌 Key Features of the Dashboard
+📌 Key Features of the Dashboard :
 
 ✔ Market Overview 
 
-1.Top hiring states: California, New York, Massachusetts, Illinois  
+1. Top hiring states: California, New York, Massachusetts, Illinois  
 
-2.Top industries: Biotech & Pharmaceuticals, Insurance, IT Services
+2. Top industries: Biotech & Pharmaceuticals, Insurance, IT Services
 
-3.Job distribution across ownership types (e.g., Private = 410, Public = 193)
+3. Job distribution across ownership types (e.g., Private = 410, Public = 193)
 
 
 ✔ Salary & Professional Insights
@@ -89,61 +86,62 @@ Columns / Features: 31
 
 ✔ Hiring Trends & Ownership Insights 
 
-1.Ownership-Wise job role demand (e.g., Private sector demands 24% Data Scientists)
+1. Ownership-Wise job role demand (e.g., Private sector demands 24% Data Scientists)
 
-2.Skills Distribution across job roles (full matrix shown in report)
+2. Skills Distribution across job roles (full matrix shown in report)
 
-3.Education vs. Salary insights
+3. Education vs. Salary insights
+
 
 ✔ Complete Insights 
 
 Provides actionable recommendations, such as:
 
-1.Target high-demand states
+1. Target high-demand states
 
-2.Focus on Biotech, Insurance & IT Services
+2. Focus on Biotech, Insurance & IT Services
 
-3.Data Science & Machine Learning roles show highest long-term potential
+3. Data Science & Machine Learning roles show highest long-term potential
 
-4.Postgraduate degree significantly boosts earning potential
-
-
-📐 Data Modeling
-
-1.Single table schema, optimized with Power Query transformations
-
-2.13 DAX Measures created for cleaner KPI computation and reusable metrics
+4. Postgraduate degree significantly boosts earning potential
 
 
-📊 DAX Measures Table 
+📐 Data Modeling :
 
-Measure Name	DAX Code
+1. Single table schema, optimized with Power Query transformations
 
-Data_Scientists	Data_Scientists = COUNTROWS(FILTER(Data_Tab, Data_Tab[Job_Title] = "Data Scientist"))
+2. 13 DAX Measures created for cleaner KPI computation and reusable metrics
 
-Government_Jobs	Government_Jobs = COUNTROWS(FILTER(Data_Tab, Data_Tab[Type_of_Ownership] = "Government"))
 
-Intermediate_Jobs	Intermediate_Jobs = COUNTROWS(FILTER(Data_Tab, Data_Tab[Seniority] = "Intermediate"))
+📊 DAX Measures Table :
 
-Junior_Jobs	Junior_Jobs = COUNTROWS(FILTER(Data_Tab, Data_Tab[Seniority] = "Junior"))
+Measure Name	                               DAX Code
 
-Max_Salary	Max_Salary = MAX(Data_Tab[Upper_Salary])
+1. Data_Scientists = COUNTROWS(FILTER(Data_Tab, Data_Tab[Job_Title] = "Data Scientist"))
 
-Min_Salary	Min_Salary = MIN(Data_Tab[Lower_Salary])
+2. Government_Jobs = COUNTROWS(FILTER(Data_Tab, Data_Tab[Type_of_Ownership] = "Government"))
 
-Private_Jobs	Private_Jobs = COUNTROWS(FILTER(Data_Tab, Data_Tab[Type_of_Ownership] = "Private"))
+3. Intermediate_Jobs = COUNTROWS(FILTER(Data_Tab, Data_Tab[Seniority] = "Intermediate"))
 
-Public_Jobs	Public_Jobs = COUNTROWS(FILTER(Data_Tab, Data_Tab[Type_of_Ownership] = "Public"))
+4. Junior_Jobs = COUNTROWS(FILTER(Data_Tab, Data_Tab[Seniority] = "Junior"))
 
-Salary_Avg	Salary_Avg = AVERAGE(Data_Tab[Avg_Salary])
+5. Max_Salary = MAX(Data_Tab[Upper_Salary])
 
-Senior_Jobs	Senior_Jobs = COUNTROWS(FILTER(Data_Tab, Data_Tab[Seniority] = "Senior"))
+6. Min_Salary = MIN(Data_Tab[Lower_Salary])
 
-Total_Companies	Total_Companies = DISTINCTCOUNT(Data_Tab[Company_Name])
+7. Private_Jobs = COUNTROWS(FILTER(Data_Tab, Data_Tab[Type_of_Ownership] = "Private"))
 
-Total_Industries	Total_Industries = DISTINCTCOUNT(Data_Tab[Industry])
+8. Public_Jobs = COUNTROWS(FILTER(Data_Tab, Data_Tab[Type_of_Ownership] = "Public"))
 
-Total_Jobs	Total_Jobs = COUNT(Data_Tab[Job_Title])
+9. Salary_Avg = AVERAGE(Data_Tab[Avg_Salary])
+
+10. Senior_Jobs = COUNTROWS(FILTER(Data_Tab, Data_Tab[Seniority] = "Senior"))
+
+11. Total_Companies = DISTINCTCOUNT(Data_Tab[Company_Name])
+
+12. Total_Industries = DISTINCTCOUNT(Data_Tab[Industry])
+
+13. Total_Jobs = COUNT(Data_Tab[Job_Title])
 
 
 🧩 Key Insights 
