@@ -166,7 +166,7 @@ Columns / Features: 31
 
 4. Consider Postgraduate Education for Better Salary Prospects
 
-5. Explore Nonprofit and Public Roles if seeking Stability
+5. Explore Nonprofit and Public Roles for seeking Job Stability
 
 
 
