@@ -13,8 +13,8 @@ Power BI Analysis of the U.S. Data Job Market
 | Total Fields      | 31                                      |
 
 
-This Power BI project analyzes data-related job trends across the United States, focusing on hiring demand, salary distribution, seniority levels, skill requirements, and ownership patterns.
-The report emphasizes clarity, consistency, and insight-driven storytelling using simple but effective visuals.
+This Power BI Project analyzes Data-Related Job Trends across the United States, focusing on Hiring Demand, Salary Distribution, Seniority Levels, Skill Requirements, and Ownership Patterns.
+The Report emphasizes Clarity, Consistency, and Insight-Driven Storytelling using Simple but Effective Visuals.
 
 
 📄 REPORT STRUCTURE
@@ -53,8 +53,8 @@ Job Title, Salary Ranges, Company Name, Industry, Location, Seniority, Ownership
 | ------------------- | --------------------------------------------------- |
 | Top Hiring States   | California, New York, Massachusetts, Illinois       |
 | Leading Industries  | Biotech & Pharmaceuticals, Insurance, CS&H          |
-| Ownership Dominance | Private Sector (~55% of total jobs)                 |
-| Market Pattern      | Hiring concentrated in select states and industries |
+| Ownership Dominance | Private Sector (~55% of Total Jobs)                 |
+| Market Pattern      | Hiring Concentrated in Select States and Industries |
 
 
 💰 SALARY & PROFESSIONAL INSIGHTS
@@ -62,19 +62,19 @@ Job Title, Salary Ranges, Company Name, Industry, Location, Seniority, Ownership
 | -------------------- | ----------------------------------------- |
 | Highest Paying Roles | Director, Machine Learning Engineer       |
 | Top Paying Locations | Chicago (IL), California, Washington (DC) |
-| Education Impact     | Postgraduates earn significantly more     |
+| Education Impact     | Postgraduates Earn Significantly More     |
 | Most In-Demand Role  | Data Scientist                            |
-| Satisfaction Trend   | Higher at senior levels                   |
+| Satisfaction Trend   | Higher at Senior Levels                   |
 
 
 🏢 HIRING TRENDS & OWNERSHIP INSIGHTS
 | Ownership Type         | Trend                                     |
 | ---------------------- | ----------------------------------------- |
-| Private Sector         | Highest hiring volume                     |
-| Public Sector          | Moderate opportunities                    |
-| Government             | Limited openings                          |
-| Education Institutions | Lowest hiring volume                      |
-| Skill Demand           | Data Scientists & Data Engineers dominate |
+| Private Sector         | Highest Hiring Volume                     |
+| Public Sector          | Moderate Opportunities                    |
+| Government             | Limited Openings                          |
+| Education Institutions | Lowest Hiring Volume                      |
+| Skill Demand           | Data Scientists & Data Engineers Needed   |
 
 
 📐 DATA MODEL & DESIGN APPROACH
@@ -82,9 +82,9 @@ Job Title, Salary Ranges, Company Name, Industry, Location, Seniority, Ownership
 | --------------- | ------------------------------- |
 | Data Model      | Single Table                    |
 | Transformations | Power Query                     |
-| Visual Strategy | KPI-driven, No slicers          |
-| Layout          | Consistent sizing and alignment |
-| Focus           | Trend clarity over complexity   |
+| Visual Strategy | KPI-Driven, No Slicers          |
+| Layout          | Consistent Sizing and Alignment |
+| Focus           | Trend Clarity over Complexity   |
 
 
 📊 DAX MEASURES
@@ -108,9 +108,9 @@ Job Title, Salary Ranges, Company Name, Industry, Location, Seniority, Ownership
 🧠 KEY TAKEAWAYS
 | Area           | Conclusion                      |
 | -------------- | ------------------------------- |
-| Job Market     | Concentrated and competitive    |
-| Hiring Driver  | Private organizations           |
-| Salary Driver  | Education & seniority           |
+| Job Market     | Concentrated and Competitive    |
+| Hiring Driver  | Private Organizations           |
+| Salary Driver  | Education & Seniority           |
 | Role Stability | Data Science & Data Engineering |
 | Skill Focus    | Python, SQL, Analytics Tools    |
 
